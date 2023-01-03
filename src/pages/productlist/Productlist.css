@@ -1,0 +1,70 @@
+.userlist {
+  flex: 4;
+}
+
+/* .supplierTitle {
+    margin-bottom: 20px;
+  } */
+
+.productTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.createProductButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* .supplierDataTable {
+    max-width: 95%;
+  } */
+
+.suppliercell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
+
+.product {
+  padding: 30px;
+}
+
+.productListEdit {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 20px;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.productListDelete {
+  cursor: pointer;
+}
+
+.productListOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.productListOptions select {
+  padding: 5px;
+  font-size: 18px;
+}

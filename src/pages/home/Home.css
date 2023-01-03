@@ -1,0 +1,13 @@
+.home {
+  flex: 4;
+  padding: 0 15px;
+}
+
+.homeWidgets {
+  display: flex;
+}
+
+.adminHome {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}

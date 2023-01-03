@@ -1,0 +1,57 @@
+.newSupplier {
+  flex: 4;
+  padding: 30px;
+}
+
+.newSupplierForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newSupplierItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.newSupplierItem > label {
+  margin-bottom: 10px;
+  font-style: 14px;
+  font-weight: 600;
+  color: gray;
+}
+
+.newSupplierItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.newSupplierGender > input {
+  margin-top: 15px;
+}
+
+.newSupplierGender > label {
+  margin: 10px;
+  font-style: 18px;
+  color: #555;
+}
+
+.newSupplierSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.newSupplierButton {
+  width: 200px;
+  border: none;
+  background-color: darkblue;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}

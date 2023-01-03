@@ -1,0 +1,166 @@
+.user {
+  flex: 4;
+}
+
+.orderTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.orderContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.orderShow {
+  flex: 3;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.orderShowBy {
+  margin-bottom: 15px;
+}
+
+.orderShowTop {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.orderShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.orderShowJobTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderShowUsername {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.orderShowUserTitle {
+  font-weight: 300;
+}
+
+.orderShowTitle {
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(126, 124, 124);
+}
+
+.orderShowBottom {
+  margin-top: 20px;
+}
+
+.orderShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #444;
+}
+
+.orderShowIcon {
+  font-size: 16px !important;
+}
+
+.orderShowInfoTitle {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.orderUpdate {
+  flex: 2;
+  margin-left: 20px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.orderUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.orderUpdateImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.orderUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.orderUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.orderUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.orderUpdateInput {
+  border: none;
+  width: 250px;
+  border-bottom: 1px solid grey;
+  height: 30px;
+}
+.orderUpdateUpload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.orderUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.orderUpateButton {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.orderUpdateIcon {
+  cursor: pointer;
+}
+
+.orderUpdateButton {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: #fff;
+  font-weight: bold;
+}

@@ -1,0 +1,59 @@
+.userlist {
+  flex: 4;
+}
+
+/* .supplierTitle {
+  margin-bottom: 20px;
+} */
+
+.supplierTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.createSupplierButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* .supplierDataTable {
+  max-width: 95%;
+} */
+
+.suppliercell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.supplierListImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.supplier {
+  padding: 30px;
+}
+
+.supplierListEdit {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 20px;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.supplierListDelete {
+  cursor: pointer;
+}

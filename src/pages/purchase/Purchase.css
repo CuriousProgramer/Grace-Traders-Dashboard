@@ -1,0 +1,161 @@
+.purchase {
+  flex: 4;
+  padding: 20px;
+}
+
+.purchaseTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.purchaseAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.purchaseContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.purchaseShow {
+  flex: 1;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.purchaseShowTop {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.purchaseShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.purchaseShowJobTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.purchaseShowUsername {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.purchaseShowUserTitle {
+  font-weight: 300;
+}
+
+.purchaseShowTitle {
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: teal;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.purchaseShowBottom {
+  margin-top: 20px;
+}
+
+.purchaseShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #444;
+}
+
+.purchaseShowIcon {
+  font-size: 16px !important;
+}
+
+.purchaseShowInfoTitle {
+  margin-left: 10px;
+}
+
+.purchaseUpdate {
+  flex: 1;
+  margin-left: 20px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.purchaseUpdateSelect {
+  padding: 5px 10;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.purchaseUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.purchaseUpdateImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.purchaseUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.purchaseUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.purchaseUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.purchaseUpdateInput {
+  border: none;
+  width: 250px;
+  border-bottom: 1px solid grey;
+  height: 30px;
+}
+.purchaseUpdateUpload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.purchaseUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.purchaseUpdateIcon {
+  cursor: pointer;
+}
+
+.purchaseUpdateButton {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: #fff;
+  font-weight: bold;
+}

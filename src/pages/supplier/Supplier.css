@@ -1,0 +1,150 @@
+.supplier {
+  flex: 4;
+}
+
+.supplierTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.supplierAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.supplierContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.supplierShow {
+  flex: 1;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.supplierShowTop {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.supplierShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.supplierShowJobTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.supplierShowUsername {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.supplierShowUserTitle {
+  font-weight: 300;
+}
+
+.supplierShowTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.supplierShowBottom {
+  margin-top: 20px;
+}
+
+.supplierShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #444;
+}
+
+.supplierShowIcon {
+  font-size: 16px !important;
+}
+
+.supplierShowInfoTitle {
+  margin-left: 10px;
+}
+
+.supplierUpdate {
+  flex: 2;
+  margin-left: 20px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.supplierUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.supplierUpdateImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.supplierUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.supplierUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.supplierUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.supplierUpdateInput {
+  border: none;
+  width: 250px;
+  border-bottom: 1px solid grey;
+  height: 30px;
+}
+.supplierUpdateUpload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.supplierUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.supplierUpdateIcon {
+  cursor: pointer;
+}
+
+.supplierUpdateButton {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: #fff;
+  font-weight: bold;
+}

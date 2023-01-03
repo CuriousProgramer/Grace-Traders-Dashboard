@@ -1,0 +1,103 @@
+.userlist {
+  flex: 4;
+}
+
+/* .supplierTitle {
+      margin-bottom: 20px;
+    } */
+
+.orderTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.createOrderButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* .supplierDataTable {
+      max-width: 95%;
+    } */
+
+.suppliercell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.orderListImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.order {
+  padding: 30px;
+}
+
+.orderListEdit {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 20px;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.orderListDelete {
+  cursor: pointer;
+}
+
+.orderStatus.Delivered {
+  border: 1px solid green;
+  background: lightgreen;
+  color: green;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.orderStatus.Pending {
+  border: 1px solid red;
+  background: lightpink;
+  color: red;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.orderStatus.Cancelled {
+  border: 1px solid red;
+  background: lightpink;
+  color: red;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.orderStatus.Shipped {
+  border: 1px solid darkorange;
+  background: yellow;
+  color: darkorange;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50px;
+  font-size: 12px;
+  text-align: center;
+}

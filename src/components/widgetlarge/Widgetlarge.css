@@ -1,0 +1,51 @@
+.widgetLarge {
+  flex: 2;
+  margin: 20px 0 20px 20px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.widgetLargeTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.widgetLargeButtonApproved {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(62, 209, 62);
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.widgetLargeButtonPending {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 58, 58);
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.widgetLargeTh {
+  text-align: left;
+}
+
+.widgetLargeUser {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.widgetLargeTitle {
+  font-size: 22px;
+  font-size: 600;
+}
+
+.widgetLargeUser img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}

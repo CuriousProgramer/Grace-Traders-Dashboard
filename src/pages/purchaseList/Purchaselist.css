@@ -1,0 +1,81 @@
+.userlist {
+  flex: 4;
+}
+
+.purchaseDataTable {
+}
+/* .supplierTitle {
+    margin-bottom: 20px;
+  } */
+
+.purchaseTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.createPurchaseButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* .supplierDataTable {
+    max-width: 95%;
+  } */
+
+.suppliercell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.purchaseListImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.purchase {
+  height: 100%;
+}
+
+.purchaseListEdit {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 20px;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.purchaseListDelete {
+  cursor: pointer;
+}
+
+.paymentStatus.Approved {
+  border: 1px solid green;
+  background: lightgreen;
+  color: green;
+  border-radius: 5px;
+  padding: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+.paymentStatus.Pending {
+  border: 1px solid red;
+  background: #ffccbb;
+  color: red;
+  border-radius: 5px;
+  padding: 5px;
+  width: 60px;
+  text-align: center;
+}

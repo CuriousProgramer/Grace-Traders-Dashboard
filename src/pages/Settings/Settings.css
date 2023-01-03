@@ -1,0 +1,20 @@
+.switcher {
+  margin: 20px;
+}
+
+.adminUpdateImg {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block !important;
+  margin: 20px 0 !important;
+}
+
+.loading {
+  margin: 20px 0;
+}
+
+.note {
+  font-size: 12px;
+  font-style: italic;
+}

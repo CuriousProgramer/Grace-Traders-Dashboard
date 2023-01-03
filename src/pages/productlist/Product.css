@@ -1,0 +1,153 @@
+.product {
+  flex: 4;
+}
+
+.productTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.productContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.productShow {
+  flex: 1;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.productShowTop {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.productShowImg {
+  width: 100%;
+  height: auto;
+
+  object-fit: cover;
+}
+
+.productShowJobTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.productShowUsername {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.productShowUserTitle {
+  font-weight: 300;
+}
+
+.productShowTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.productShowBottom {
+  margin-top: 20px;
+}
+
+.productShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #444;
+}
+
+.productShowIcon {
+  font-size: 16px !important;
+}
+
+.productShowInfoTitle {
+}
+
+.m20 {
+  margin-top: 40px;
+}
+
+.productUpdate {
+  flex: 2;
+  margin-left: 20px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.productUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.productUpdateImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.productUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.productUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.productUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.productUpdateInput {
+  border: none;
+  width: 250px;
+  border-bottom: 1px solid grey;
+  height: 30px;
+}
+.productUpdateUpload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.productUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productUpdateIcon {
+  cursor: pointer;
+}
+
+.productUpdateButton {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: #fff;
+  font-weight: bold;
+}
